@@ -61,3 +61,17 @@ public class Day8Question5 {
 	}
 
 }
+
+/**
+5.	Using for loop, loop through numbers 1-32
+
+a.	If the number is even and in the range of 2 to 5
+i.	then print “Even number 2-5 “ and the value of number. (numbers between 2
+
+b.	If the number is even and in the range of 6 to 20
+i.	then print “Even Number 6-20” and the value of the number
+
+
+c.	If the number is odd and in the range of 15 to 20
+i.	then print “Odd Number 15-20” and the value of the number
+*/
