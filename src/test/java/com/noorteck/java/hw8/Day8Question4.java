@@ -68,3 +68,12 @@ public class Day8Question4 {
 	}
 
 }
+
+
+/**
+4.	write Java program to calculate the sum of Odd and even numbers.
+a.	Loop through numbers between 1 and 20 and display the total of odd numbers and total of even numbers.
+b.	Using for loop
+c.	Using while loop
+d.	Using do while loop
+*/
