@@ -11,9 +11,9 @@ public class Day8Question4 {
 		
 		for (int i=1; i<=20; i++) {
 			if(i%2==0) {
-				even++;
+				even=even+i;
 			} else {
-				odd++;
+				odd=odd+i;
 			}
 		}
 		
@@ -31,10 +31,10 @@ public class Day8Question4 {
 		
 		while (y<=20) {
 			if(y%2==0) {
-				even2++;
+				even2=even2+y;
 				y++;
 			} else {
-				odd2++;
+				odd2=odd2+y;
 				y++;
 			}
 		}
@@ -53,10 +53,10 @@ public class Day8Question4 {
 				
 		do {
 			if(x%2==0) {
-				even3++;
+				even3=even3+x;
 				x++;
 			} else {
-				odd3++;
+				odd3=odd3+x;
 				x++;
 			}
 		} while (x<=20);
@@ -65,6 +65,7 @@ public class Day8Question4 {
 		System.out.println("");
 		System.out.println("Total of ODD numbers: " + odd3);
 		
+
 	}
 
 }
