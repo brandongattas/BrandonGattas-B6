@@ -4,7 +4,7 @@ public class BrokenCode {
 	
 public static void main(String[] args) { //main not written properly
 		
-		double addResult = 2.0; //double variables cannot contain string
+		double addResult = addTwoNumbers(2,4); //double variables cannot contain string
 		
 		System.out.println(addResult);
 		
@@ -18,7 +18,7 @@ public static void main(String[] args) { //main not written properly
 		whoseFavNumber(3);	
 		whoseFavNumber(1);
 				
-		String greeting = "John Cena"; //The value must go between "" and no parenthesis.
+		myName("John Cena"); //The value must go between "" and no parenthesis, call the method not need to create a variable.
 		
 }
 
