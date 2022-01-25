@@ -12,13 +12,11 @@ public class Day22Question4 {
 	}
 	
 	public static String getSubStr(String str, int startingIndex, int endingIndex) {
-		String result="";
+		String result=null;
 		
 		if(str!=null) {
 			result=str.substring(startingIndex, endingIndex);
-		} else {
-			result="null";
-		}
+		} 
 		
 		return result;
 	}

@@ -11,12 +11,10 @@ public class Day22Question5 {
 	}
 	
 	public static String removeSpace(String strOne) {
-		String result="";
+		String result=null;
 		
 		if(strOne!=null) {
 			result=strOne.trim();
-		} else {
-			result="null";
 		}
 		
 		return result;

@@ -13,12 +13,10 @@ public class Day22Question1 {
 	}
 
 	String toUpper(String strOne) {
-		String result="";
+		String result=null;
 		
 		if(strOne != null) {
 			result=strOne.toUpperCase();
-		} else {
-			result="null";
 		}
 		
 		return result;

@@ -1,25 +1,7 @@
 package com.noorteck.java.hw22;
 
 public class Day22Question3 {
-
-	protected String threeEqual(String str, char oldChar, char newChar) {
-		String result = "";
-
-		if (str != null) {
-			int length = str.length();
-
-			for (int i = 0; i < length; i++) {
-				if (str.charAt(i) == oldChar) {
-					result = str.replace(oldChar, newChar);
-				}
-			}
-		} else {
-			result = "null";
-		}
-
-		return result;
-	}
-
+	
 	public static void main(String[] args) {
 
 		Day22Question3 obj = new Day22Question3();
@@ -29,6 +11,16 @@ public class Day22Question3 {
 		System.out.println(obj.threeEqual("Lazy mode", 'm', 'C'));
 		System.out.println(obj.threeEqual("Training", 'T', ' '));
 
+	}
+
+	protected String threeEqual(String str, char oldChar, char newChar) {
+		String result = null;
+
+		if (str != null) {
+			result = str.replace(oldChar, newChar);
+		}
+		
+		return result;
 	}
 
 }
