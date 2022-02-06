@@ -18,18 +18,18 @@ public class Day24Question6 {
 	
 	protected static boolean checkNum (int[] number) {
 		boolean result=false;
-		int n1=0;
-		int n2=0;
+		int twoCount=0;
+		int fiveCount=0;
 		
 		for(int i=0; i<number.length; i++) {
 			if(number[i]==2) {
-				n1+=1;
+				twoCount++;
 			} else if (number[i]==5){
-				n2+=1;
+				fiveCount++;
 			}
 		}
 		
-		if(n1>1 || n2>1) {
+		if(twoCount>1 || fiveCount>1) {
 			result=true;
 		}
 		

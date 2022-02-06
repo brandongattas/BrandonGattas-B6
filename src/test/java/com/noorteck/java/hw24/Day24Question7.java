@@ -18,14 +18,12 @@ public class Day24Question7 {
 	}
 
 	public static int getIndexNumber (int[] number, int elementValue) {
-		int result=0;
+		int result=-1;
 		
 		for(int i=0; i<number.length; i++) {
 			if(number[i]==elementValue) {
 				result=i;
 				break;
-			} else {
-				result=-1;
 			}
 		}
 		
